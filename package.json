@@ -1,0 +1,45 @@
+{
+  "name": "expo-ui-swipe-actions",
+  "version": "1.0.0",
+  "description": "Native SwiftUI swipeActions modifier for Expo UI",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "tsc"
+  },
+  "keywords": [
+    "expo",
+    "react-native",
+    "swiftui",
+    "swipe-actions",
+    "ios",
+    "expo-ui"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/manikagnish/expo-ui-swipe-actions.git"
+  },
+  "bugs": {
+    "url": "https://github.com/manikagnish/expo-ui-swipe-actions/issues"
+  },
+  "homepage": "https://github.com/manikagnish/expo-ui-swipe-actions#readme",
+  "author": "Manik Agnish",
+  "license": "MIT",
+  "files": [
+    "build",
+    "ios",
+    "expo-module.config.json"
+  ],
+  "peerDependencies": {
+    "@expo/ui": ">=0.9.0",
+    "expo": ">=52.0.0",
+    "react": "*",
+    "react-native": "*"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@expo/ui": ">=0.9.0",
+    "expo": ">=52.0.0"
+  }
+}
