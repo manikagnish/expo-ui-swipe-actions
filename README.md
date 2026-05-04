@@ -5,11 +5,12 @@ Native SwiftUI `swipeActions` modifier for [Expo UI](https://docs.expo.dev/versi
 > iOS only — requires Expo SDK 52+ and `@expo/ui` 0.9+
 
 > [!IMPORTANT]
-> This modifier relies on the native SwiftUI `swipeActions` API, which **only works inside a `List`**. Applying it to views inside a `ScrollView`, `VStack`, or any other container will have no effect, the modifier is silently ignored by SwiftUI.
+> This modifier relies on the native SwiftUI `swipeActions` API, which **only works inside a `List`**.
+> Applying it to views inside a `ScrollView`, `VStack`, or any other container will have no effect, the modifier is silently ignored by SwiftUI.
 
 ## Demo
 
-![expo-swipeactions demo](assets/swipe-actions.gif)
+<img src="https://raw.githubusercontent.com/manikagnish/expo-ui-swipe-actions/main/assets/swipe-actions.gif" alt="expo-swipeactions demo" width="400" />
 
 ## Installation
 
@@ -54,7 +55,7 @@ import { List, HStack } from "@expo/ui/swift-ui";
             onPress: () => console.log("edited"),
           },
         ],
-        allowsFullSwipe: false,
+        allowsFullSwipe: true,
       }),
     ]}
   >
