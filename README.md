@@ -7,6 +7,10 @@ Native SwiftUI `swipeActions` modifier for [Expo UI](https://docs.expo.dev/versi
 > [!IMPORTANT]
 > This modifier relies on the native SwiftUI `swipeActions` API, which **only works inside a `List`**. Applying it to views inside a `ScrollView`, `VStack`, or any other container will have no effect, the modifier is silently ignored by SwiftUI.
 
+## Demo
+
+![expo-swipeactions demo](assets/swipe-actions.gif)
+
 ## Installation
 
 ```bash
@@ -26,11 +30,11 @@ import { List, HStack } from "@expo/ui/swift-ui";
       swipeActions({
         leading: [
           {
-            id: "archive",
-            label: "Archive",
-            systemImage: "archivebox",
-            tint: "teal",
-            onPress: () => console.log("archived"),
+            id: "pin",
+            label: "Pin",
+            systemImage: "pin.fill",
+            tint: "#FF9500",
+            onPress: () => console.log("pin"),
           },
         ],
         trailing: [
