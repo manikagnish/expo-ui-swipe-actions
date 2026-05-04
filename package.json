@@ -1,6 +1,6 @@
 {
   "name": "expo-ui-swipe-actions",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Native SwiftUI swipeActions modifier for Expo UI",
   "main": "build/index.js",
   "types": "build/index.d.ts",
